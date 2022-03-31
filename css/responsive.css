@@ -1,0 +1,31 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .calculator-grid {
+      min-height: 90vh;
+        /* Banyaknya kolom (columns) dalam grid */
+        grid-template-columns: repeat(4, 70px);
+ 
+        /* Banyaknya (rows) dalam grid */
+        grid-template-rows: minmax(100px, auto) repeat(5, 70px);
+    
+        /* Menambahkan grid gap untuk memberi jarak antar grid cell */
+        grid-gap: 5px;
+      }
+
+      .calculator-grid > button {
+        font-size: 1.5rem;
+      }
+      
+      .display-output .previous-operand{
+        color: rgba(3, 0, 0, 0.75);
+        font-size: 1rem;
+      }
+
+      .display-output .current-operand{
+        font-size: 1.8rem;
+      }
+
+      .display-output{
+        height: 150px;
+      }
+}
