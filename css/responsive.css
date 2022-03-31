@@ -1,0 +1,61 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .calculator-grid {
+        /* Banyaknya kolom (columns) dalam grid */
+        grid-template-columns: repeat(4, 75px);
+        /* grid-template-columns: 120px 120px 120px 120px; */
+    
+        /* Banyaknya (rows) dalam grid */
+        grid-template-rows: minmax(120px, auto) repeat(5, 75px);
+    
+        /* Menambahkan grid gap untuk memberi jarak antar grid cell */
+        grid-gap: 5px;
+      }
+
+      .calculator-grid > button {
+        font-size: 1.5rem;
+      }
+      
+      .output .previous-operand{
+        color: rgba(3, 0, 0, 0.75);
+        font-size: 1rem;
+      }
+
+      .output .current-operand{
+        font-size: 1.8rem;
+      }
+
+}
+
+/*Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .calculator-grid {
+        /* Banyaknya kolom (columns) dalam grid */
+        grid-template-columns: repeat(4, 80px);
+        /*
+    
+        /* Banyaknya (rows) dalam grid */
+        grid-template-rows: minmax(100px, auto) repeat(5, 80px);
+    
+        /* Menambahkan grid gap untuk memberi jarak antar grid cell */
+        grid-gap: 8px;
+      }
+
+      .calculator-grid > button {
+        font-size: 1.8rem;
+      }
+
+      .output .previous-operand{
+        color: rgba(3, 0, 0, 0.75);
+        font-size: 1.5rem;
+      }
+
+      .output .current-operand{
+        font-size: 2rem;
+      }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    
+}
