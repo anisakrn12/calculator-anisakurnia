@@ -3,10 +3,10 @@
     .calculator-grid {
       min-height: 90vh;
         /* Banyaknya kolom (columns) dalam grid */
-        grid-template-columns: repeat(4, 70px);
+        grid-template-columns: repeat(4, 65px);
  
         /* Banyaknya (rows) dalam grid */
-        grid-template-rows: minmax(100px, auto) repeat(5, 70px);
+        grid-template-rows: minmax(100px, auto) repeat(5, 65px);
     
         /* Menambahkan grid gap untuk memberi jarak antar grid cell */
         grid-gap: 5px;
@@ -18,11 +18,11 @@
       
       .display-output .previous-operand{
         color: rgba(3, 0, 0, 0.75);
-        font-size: 1rem;
+        font-size: 1.5rem;
       }
 
       .display-output .current-operand{
-        font-size: 1.8rem;
+        font-size: 2rem;
       }
 
       .display-output{
