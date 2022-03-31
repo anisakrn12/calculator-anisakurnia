@@ -2,11 +2,10 @@
 @media (max-width: 575.98px) {
     .calculator-grid {
         /* Banyaknya kolom (columns) dalam grid */
-        grid-template-columns: repeat(4, 75px);
-        /* grid-template-columns: 120px 120px 120px 120px; */
+        grid-template-columns: repeat(4, 70px);
     
         /* Banyaknya (rows) dalam grid */
-        grid-template-rows: minmax(120px, auto) repeat(5, 75px);
+        grid-template-rows: minmax(100px, auto) repeat(5, 70px);
     
         /* Menambahkan grid gap untuk memberi jarak antar grid cell */
         grid-gap: 5px;
